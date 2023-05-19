@@ -1,0 +1,314 @@
+.body{
+    margin: 0px;
+}
+.green{
+    color:green;
+}
+.orange{
+    color:orange;
+}
+
+
+/*h3 {
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  position: relative;
+  top: -87px; 
+  left: 120px;
+  display: inline-block;
+}*/
+
+.Paragraph{
+    color: white;
+    z-index: 2;
+    margin-top: 45px;
+    /*margin-left: -115px; */
+    width: 35%; 
+    font-size: 17px;
+}
+/*.Section_2FlexBoxParagraph{
+  color: black;
+  font-size: 15px;
+  position: relative;
+  top: -87px; 
+  left: 118px;
+  display: inline-block;  
+  line-height: 20px;   
+}*/
+/*p{
+  color: black;
+  font-size: 15px;
+  position: relative;
+  top: -87px; 
+  left: 118px;
+  display: inline-block;  
+  line-height: 30px;
+}*/
+.header{
+    background-color: #072385;
+    padding:5px 70px 15px ;
+   /* margin-top: 5px;*/
+    position: fixed;
+    top:0;
+    width: 100%;
+    margin: auto;
+    z-index: 3;
+}
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   }
+.header-logo-container{
+    display:inline-block;
+    width:20%;
+    height: 90%;
+}
+.header-logo{
+    width:100%;
+    height:100%;
+}
+.header-content{
+    display:inline-block;
+    float: right;
+    background-color:none;
+    border-radius:30px;
+    padding:8px 58px;
+}
+.header-list-container{
+    display:inline-block;
+}
+.header-list{
+    list-style-type: none;
+    padding:0;
+}
+.header-list-item{
+    display:inline;
+    padding:8px 20px;
+    border-radius:20px;
+    font-size:17px;
+    font-weight: 500;
+    color:white;
+    width: auto;
+}
+.header-list-item:hover{
+    background-color: #E58709;
+    color:white;
+}
+.ContactSupport{
+  border-radius: 5px;
+  padding: 15px;
+  width: 160px;
+  text-align: center;
+  background-color: #00FFFF;
+  color: white;
+  border:none;
+  text-decoration: none;
+  margin: 5px;
+}
+.MainContainer{
+    background-image: url("images/slide-01.jpg");
+    height: 800px;
+    width: 100%;
+    margin-top:0px;
+}
+.SliderContainer{
+    position: relative;
+    background-color: none;
+    top: 100px;
+    margin:0px;
+}
+/*.mySlides {
+    display:none;
+    height: auto;
+    width: auto;
+
+}*/
+.SliderText{
+    z-index: 2;
+    color: white;
+    /*position: relative;*/
+    margin-top:100px;
+    margin-left: 100px;
+    font-weight: bold;
+    font-size: 32px;
+}
+.DiscoverMoreHeader{
+    border-radius: 5px;
+    padding: 12px;
+    width: 175px;
+    text-align: center;
+    background-color: green;
+    vertical-align: middle;
+    color: white;
+    border: none;
+    margin: 5px;
+    margin-top: 33px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.DiscoverMoreOrangeHeader{
+    border-radius: 5px;
+    padding: 12px;
+    width: 175px;
+    text-align: center;
+    background-color: orange;
+    vertical-align: middle;
+    color: white;
+    border: none;
+    margin: 5px;
+    margin-top: 33px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
+/*.SliderTextHr{
+    width: 10%;
+    color: white;
+}*/
+.DiscoverMore{
+  border-radius: 5px;
+  padding: 10px;
+  width: auto;
+  /*text-align: center;*/
+  background-color: orange;
+  /*vertical-align: middle;*/
+  color: white;
+  border:none;
+  margin: 0px;
+  /*margin-top: 25px;
+  margin-right: 20px;*/
+}
+
+@media(max-width: 1200px) and (min-width: 992px) {
+   /* .header{background-color: yellow;}*/
+    .header{padding: 16px 40px 15px;}
+    .header-content{padding: 8px 55px;}
+    .header-list-item{padding: 10px;}
+    .ContactSupport{margin-left: -20px;}
+    .MainContainer{width: 100% !important;}   
+    .SliderText{margin-top:110px;}
+    .Section_2FlexBoxCSS{top:-70px;}
+    .Paragraph{margin-top:16px; width: 40%;}
+    .Section_2FlexBoxCSS{top: -60px !important;}
+    .Section_2FlexBoxParagraph{margin-top: -44px !important; margin-left: 91px; font-size: 17px; line-height: 30px;}
+    /*.WebsiteTemplate{position: static;}*/
+    .Section_4Inner {margin-top: 109px !important; }
+}
+@media(max-width: 991px) and (min-width: 768px) {
+    /*.header{background-color: yellow;}*/
+    .header-inner{width: 100%; margin-left: -15px;}
+    .header-logo-container{margin-left: -34px; margin-right: -70px; width: 30%;}
+    .header-logo-container > img { height: 70%; width: 70%; }
+    .header-content{padding: 12px 5px; width: 80%;}
+    .header-list-item{padding: 9px;}
+    .ContactSupport {padding: 10px; width: 25%;}
+    .MainContainer{width: 100%;}
+    .SliderText{top:40px; left: 85px;font-size: 22px;} 
+    .Paragraph{top:-74px; left: 92px;}
+    .DiscoverMoreHeader{width: 153px; padding: 6px;}
+    .DiscoverMoreOrangeHeader{width: 153px; padding: 6px;}
+    .Section_2FlexBoxCSS{top:-48px !important; left: 86px !important;}
+    .Section_2FlexBoxParagraph{font-size: 14px;margin-top: -33px !important; margin-left: 89px !important; line-height: 24px !important;}
+    .Section_3{width: 100% !important;}
+    .TextInBackgroundImage{padding: 53px; margin-top: -25px;}
+    .Section_4Inner{margin-top: 80px !important;}
+    .Section_4TitleList{margin-left: -38px !important;}
+    .Section_4OuterFlex{margin-left: -51px; margin-right: -73px;}
+    .Section_4AboutUs{font-size: 18px !important; line-height: 25px !important;}
+    .Section_4AboutUsStatments{line-height: 23px !important; margin-top: 22px !important;}
+    .Section_4DiscoverMore{padding: 11px ; width: 133px;}
+    .DiscoverMore{padding: 11px; width: 133px;}
+    .Section_5{width: 100% !important;}
+    .Section_5Image{height: 212px !important; width: 303px !important; margin-left: 12px !important;}
+    .FinancialPin{font-size: 29px;}
+    .Section_7{width: 100% !important;}
+    /*.Section_7Inner{margin-left: 50px !important; width: 100%;}*/
+    /*form{margin-bottom: }*/
+}
+@media(max-width: 767px) and (min-width: 576px) {
+     /*.header{background-color: yellow;}*/
+    .header{height: 100px;}
+    .header-inner{width: 100%; margin-left: -15px;}
+    .header-logo-container{margin-left: -34px; margin-right: -70px; width: 30%;}
+    .header-logo-container > img { height: 70%; width: 70%; }
+    .header-content{padding: 8px 14px 8px 50px; width: 70%;}
+    .header-list-item{font-size: 15px; padding: 3px;}
+    .ContactSupport {padding: 5px; width: 17%; margin-left: -15px; font-size: 11px;}
+    .MainContainer{width: 767px !important;}
+    /*.SliderContainer{width: 100%;}*/
+    .SliderText{top:23px; left: 84px;font-size: 31px;}
+    .Section_2FlexBoxCSS{font-size: 16px !important; top: -22px !important; left: 60px !important;} 
+    .Section_2FlexBoxParagraph{font-size: 14px !important; margin-top: -15px !important; 
+        margin-left: 37px !important; line-height: 26px !important;}
+    .Section_3{width: 767px !important;}
+    .TextInBackgroundImage{line-height: 50px !important;}
+    .ButtonContainer{font-size: 16px;}
+    .Section_4Inner{margin-top: 112px !important;}
+    .Section_4TitleList{margin-left: -59px !important; line-height: 47px !important; margin-left: -59px; width: 534px !important;}
+    .Section_4DiscoverMore{width: 28% !important; margin-left: 27px !important;}
+    .Section_4AboutUsStatments{margin-top: 31px !important;}
+    .DiscoverMore{margin-top: 13px !important;}
+    .Section_5{width: 767px !important;}
+    .Section_5Inner{width: 90% !important;}
+    .Section_5Image{height: 202px !important; width: 213px !important;}
+    .FinancialPin{font-size: 28px;}
+    .Testimonal{margin-left: 150px !important; width: 80% !important;}
+    .Section_7{width: 767px !important;}
+   /* .Section_7Inner{margin-left: 25px !important;} */
+    /*.Paragraph{margin-top: 90px; margin-left: 0px; font-size: 11px;}*/
+    
+    /*.WebsiteTemplate{top: -13px; font-size: 12px;}    /*Creates problem top is not according to design*/
+    /*.Section_2FlexBoxParagraph{top: -20px; left: 9px; font-size: 12px; line-height: 30px;}
+    .Section_3{width: 100%;}*/
+    /*.TextInBackgroundImage{margin: 0px;}
+    .Section_4Inner{margin-top: 100px;}
+    .Section_4AboutUsText{margin:4px;}
+    .Section_4AboutUsText{margin-bottom: 5px;}
+    .Section_4TitleList{line-height: 55px; width: 116%;}
+    .Section_4DiscoverMore{margin-top: -25px;}
+    .Section_5{width: 100%;}
+    .Section_5Inner{width: 97%;}
+    form{position: relative; top: 25px;}
+    .Section_7{width: 100%;}*/
+    }
+@media(max-width: 576px) {
+    .header{height: 100px;}
+    .header-inner{width: 100%;
+     margin-left: -15px;}
+    .header-logo-container{margin-left: -34px; margin-right: -70px; width: 30%;}
+    .header-logo-container > img { height: 70%; width: 70%; }
+    .header-content{padding: 8px 14px 8px 50px; width: 70%;}
+    .header-list-item{font-size: 15px; padding: 3px;}
+    .ContactSupport {padding: 5px; width: 17%; margin-left: -15px; font-size: 11px;}
+    .MainContainer{width: 576px !important;}
+    .Paragraph{font-size: 16px;}
+    .Section_2{height: 1470px !important;}
+    .Section_2Inner{margin-top: 96px !important; margin-left: 212px !important;}
+    .Secton_2FlexBox{width: 318px;}
+    .Secton_2FlexBoxDiv{width: 695px !important; height: 222px !important; line-height: 30px !important;}
+    .Section_2FlexBoxCSS{font-size: 22px; top: -44px !important; left: 85px !important;}
+    .Section_2FlexBoxParagraph{font-size: 20px !important; margin-top: -21px !important; margin-left: 24px !important;}
+    .Section_3{width: 576px !important;}
+    .TextInBackgroundImage{line-height: 52px !important; font-size: 24px !important;}
+    .Section_4{height: 1000px !important;}
+    .Section_4KnowUsBetter{margin-bottom: 29px !important;}
+    .ButtonContainer{height: 9% !important;}
+    .Section_4DiscoverMore{width: 30% !important; margin-left: 38px !important;}
+    .Section_4TitleList{margin-top: 3px; margin-left: -50px !important; line-height: 56px !important;}
+    .Section_4AboutUs{font-size: 16px !important; margin-top: 19px !important; line-height: 25px;}
+    .Section_4AboutUsStatments{line-height: 23px !important; margin-top: 25px !important;}
+    .DiscoverMore{margin-left: -6px !important;}
+    .Section_5{width: 576px !important;}
+    .Section_5Inner{ width: 90% !important; }
+    .FinancialPin{ font-size: 24px !important; }
+    .Section_5Image{margin-left: -22px !important; margin-right: 10px; height: 210px !important; width: 195px !important;}
+    .FormSize{ width: 300px !important; margin-left: -20px !important;}
+    .NameEmailBlock{ flex-direction: column !important; }
+    .Testimonal {width: 90% !important; }
+    .Section_6{height: 650px !important;}
+    .Section_7{width: 567px !important;}
+    /*.Section_7Inner{margin-left: 25px !important;} */
+}

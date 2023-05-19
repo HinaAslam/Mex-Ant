@@ -1,0 +1,377 @@
+.Section_2{
+  background-color: none;
+  height: 800px;
+  border: none;
+  width: auto; 
+ /* z-index: 2;*/
+}
+.Section_2Inner{
+  /*position: absolute;*/
+  margin-top: 155px;
+  margin-left: 100px;
+  background-color: none;
+  height: 65%;
+  width: 85%;
+}
+.Secton_2FlexBox {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: none;
+  margin: 0px;
+}
+.Secton_2FlexBoxDiv{
+  background-color: #f1f1f1;
+  width: 45%;
+  height: 150px;
+  margin: 10px;
+  line-height: 5px;
+}
+.Section_2FlexBoxCSS{
+ font-weight: bold;
+  color: black;
+  font-size: 20px;
+  position: relative;
+  top: -72px; 
+  left: 120px;
+  display: inline-block;   
+}
+.Section_2FlexBoxParagraph{
+   color: black;
+  font-size: 15px;
+ /* position: relative;*/
+  margin-top: -87px; 
+  margin-left: 118px;
+  display: inline-block;  
+  line-height: 30px;
+}
+/*.Secton_2FlexBox > div {
+  background-color: #f1f1f1;
+  width: 45%;
+  height: 150px;
+  margin: 10px;
+  line-height: 5px;
+}*/
+.WebsiteTemplate{
+  position: relative;
+  top: -9px;
+  margin-left: 7px;
+}
+.Secton_2FlexBoximg{
+  position: relative;
+  top: 0px;
+  margin:0px; 
+}
+/*.Secton_2FlexBox > img {
+  position: relative;
+  top: 0px;
+  margin:0px;
+}*/
+.Section_3 {
+  display: flex;
+  justify-content: center;
+  background-image: url("./images/calculator-bg.jpg");
+  height: 300px;
+  width: 100%;
+  /*margin-left: 150px;*/
+  /*text-align: center;*/
+}
+/*.Section_3Div{
+  background-color: none;
+  width: 80%;
+  margin: auto; 
+}*/
+/*.Section_3 > div {
+  background-color: none;
+  width: 80%;
+  margin: auto;
+  
+}*/
+.TextInBackgroundImage{
+  text-align: left;
+  line-height: 65px;
+  font-size: 30px;
+  padding: 60px;
+  margin-left: 40px;
+  color: white;
+}
+.Section_3ButtonsSetting{
+  text-align: center;
+  vertical-align: middle;
+  margin:auto;
+}
+.DiscoverMoreButton{
+  border-radius: 5px;
+  padding: 10px;
+  width: 160px;
+  text-align: center;
+  background-color: green;
+  vertical-align: middle;
+  color: white;
+  border:none;
+  margin: 5px;
+ /* margin-top: 165px;
+  margin-right: 20px;*/
+}
+.DiscoverMoreButtonOrange{
+  border-radius: 5px;
+  padding: 10px;
+  width: 160px;
+  text-align: center;
+  background-color: orange;
+  vertical-align: middle;
+  color: white;
+  border:none;
+  margin: 5px;
+/*  margin-top: 165px;
+  margin-right: 20px;*/
+}
+.Section_4{
+  background-color: none;
+  height: 800px;
+  border: none;
+  width: auto; 
+ /* z-index: 2;*/
+}
+.Section_4Inner{
+  margin-top: 155px;
+  margin-left: 180px;
+  background-color: none;
+  height: 75%;
+  width: 75%;
+  /*margin: auto;*/
+}
+.Section_4AboutUsText{
+  font-size: 16px;
+  color: orange;
+  margin: 0px;
+  border: none;
+  text-align: center; 
+}
+.Section_4KnowUsBetter{
+ font-size: 25px;
+  margin-bottom: 50px;
+  border: none;
+  text-align: center;
+   font-weight: bolder;
+}
+/*.Section_4FlexBox{
+  display: flex;
+ 
+  background-color: red;
+  height: 30px;
+  width: 100%;
+  margin-top: 25px;
+
+}
+.Section_4FlexBox > div{
+  position: relative;
+  left: 45px;
+  background-color: blue;
+}*/
+.Section_4Button{
+ /* background-color: none;*/
+  border-radius: 8px;
+  padding:14px;
+  margin-right: 50px; 
+  /*border-color: lightgrey;*/
+  box-shadow: 0 0 8px 2px lightgrey;
+  border-width: 0px;
+  width: 125px;
+  background-color: #ffffff;
+}
+.Section_4Button: hover{
+    background-color: #E58709;
+    color:white;
+}
+.ButtonContainer{
+  width: auto;
+  height: 12%;
+  background-color: none;
+}
+.Section_4Content{
+  background-color: none;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+.Heading{
+  font-size: 15px;
+  font-weight: bold;
+}
+.Section_4Statments{
+  font-size: 12px;
+  color: green;
+  margin-right: 25px;
+}
+.Section_4Budget{
+  font-size: 12px;
+  margin-right: 25px;
+}
+.Section_4TitleList{
+  width: 100%;
+  height: 75%;
+  background-color: none;
+  margin-top: 10px;
+  margin-left: -20px;
+  display: flex;
+  line-height: 75px;
+  justify-content: space-between;
+}
+.Section_4DiscoverMore{
+  width: 25%;
+  height: 100%;
+  background-color: none;
+  margin-top: 0px;
+  position: relative;
+  margin-left: 70px;
+  /*display: flex;*/
+  line-height: 15px;
+}
+.Section_4AboutUs{
+ font-size: 20px;
+ /* margin-top: 10px;*/
+  border: none;
+line-height: 30px;
+}
+.Section_4AboutUsStatments{
+ font-size: 12px;
+  border: none;
+line-height: 25px;
+margin-top: 40px;
+}
+.DiscoverMore{
+ border-radius: 5px;
+  padding: 13px;
+  width: 140px;
+  text-align: center;
+  background-color: green;
+  vertical-align: middle;
+  color: white;
+  border:none;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.Section_5{
+ background-image: url("./images/calculator-bg.jpg"); 
+  height: 500px;
+  border: none;
+  width: auto; 
+}
+.Section_5Inner{
+  background-color: none;
+  height: 55%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.Section_5Image{
+  height: auto;
+  width: auto;
+  margin-left: 20px;
+  z-index: 2;
+}
+.Section_4OuterFlex{
+  display: flex;
+ /* justify-content: space-between;*/
+}
+.FormSize{width: auto;}
+.FinancialPin{
+  font-weight: bold;
+  color: white;
+  margin-bottom: 30px;
+ /* margin-top: 0px;*/
+}
+.FormLabel{
+  font-size: 15px;
+  color: gray;
+  /*margin-right: 50px;*/
+}
+.NameEmailBlock{
+  display: flex;
+  /*flex-direction: column;*/
+}
+.Name{
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px; 
+  margin-bottom: 20px;
+}
+.Email{
+  display: flex;flex-direction: column;
+}
+.SubmitNowButtonOrange{
+  border-radius: 5px;
+  padding: 12px;
+  width: 150px;
+  text-align: center;
+  background-color: orange;
+  vertical-align: middle;
+  color: white;
+  border:none;
+  margin: 5px;
+  margin-top: 35px;
+  margin-right: 20px;
+}
+.Section_6TestimonialText{
+  font-size: 16px;
+  color: orange;
+  margin: 0px;
+  border: none;
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 20px; 
+}
+.Testimonal{
+  display: flex;
+  height: 80%;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+}
+.ANDREWGARFIELD{
+  font-size: 20px;
+  border: none;
+  margin-top: 20px;
+  /*text-align: center;*/
+}
+.CTOofMexant{
+  font-size: 15px;
+  border: none;
+  margin-top: 10px;
+  color:green;
+  /*text-align: center;*/  
+}
+.Testimonialtext{
+  width: 65%;
+  margin-top: 30px;
+
+}
+.Section_7{
+  background-color: #20265E;
+  height: 250px;
+  border: none;
+  width: 100%; 
+  margin: auto;
+ /* z-index: 2;*/
+}
+.Section_7Inner{
+  margin:auto;
+ margin-top: 50px;
+  background-color: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  top: 80px;
+  justify-content: center;
+  align-items: center;
+  /*margin: auto;*/
+}
+.CopyRight{
+ background-color: #1C1C1E;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 13px;
+  text-align: center;
+  padding:10px;
+}
